@@ -1,0 +1,53 @@
+/* ERROR PAGINA NO ENCONTRADA Y SERVIDOR */
+
+.container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.contenedor-imagen {
+  margin: auto;
+}
+
+.contenedor-imagen img {
+  width: 100%;
+}
+
+.atribucion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.atribucion a {
+  color: rgb(228, 222, 222);
+  font-size: .9rem;
+}
+
+.ref-login:hover {
+  text-decoration: none;
+}
+
+.num-error-server {
+  font-size: 4rem;
+}
+
+
+.num-error-pagina {
+  font-size: 3rem;
+}
+
+@media screen and (min-width: 750px) {
+
+  .contenedor-imagen {
+    width: 30em;
+  }
+
+  .atribucion a {
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 0;
+  }
+}
